@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="./index.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap" rel="stylesheet">
+  
+  <meta http-equiv="Expires" content="0">
+  <meta http-equiv="Last-Modified" content="0">
+  <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+
+  <title>Votaciones</title>
+</head>
+
+<body>
+  <div class="titol">
+    <h1>Votaciones</h1>
+  </div>
+  
+    <ul class="menu">
+    <li class="menu">
+      <a href="../">Inicio</a>
+    </li>
+    <li class="menu">
+      <a href="../privacidad">Privacidad</a>
+    </li>
+    <li class="menu">
+      <a href="../categorias">Categorías</a>
+    </li>
+    <li class="menu">
+      <a href="../inscribirme">Inscribirme</a>
+    </li>
+    <li class="menu">
+      <a class="active" href="./">Votaciones</a>
+    </li>
+  </ul>
+  
+  <div style="text-align:center">
+    <p>¡Bienvenido a las votaciones!</p>
+    <p>Tan solo debes poner tu nombre de usuario y votar a quien creas que merezca ganar. 
+    No hay respuesta obligatoria, ¡vota tan solo si quieres!</p>
+    <form method="post" action="process.php">
+    <p>Antes que nada, ¿cuál es tu usuario?: <input type="text" name="user_name" placeholder="Bestimum" /><br /></p>
+    <br/>
+    
+    <!-- BLOG -->
+    <p style="text-align:center"><b>BLOGS</b></p>
+     <div class="row" style="padding-left:5%; padding-right:5%;">
+       <div class="col-md-4" style="text-align:left">
+         <p><b>Mejor blog</b></p>
+         <p><input type="radio" name="blog" value="TCPPSTimes" id="hello"/>TCPPSTimes (Zwanzig)</p>
+         <p><input type="radio" name="blog" value="Sn2ckerspup" id="adios"/>Club Penguin Rewritten Cheats (Sn2ckerspup)</p>
+         <p><input type="radio" name="blog" value="The Penguins World" id="adios"/>The Penguins World (Bestimum)</p>
+       </div>
+       
+       <div class="col-md-4" style="text-align:left">
+         <p><b>Mejor blogger</b></p>
+         <p><input type="radio" name="blogBlogger" value="Sn2ckerspup" id="hello"/>Sn2ckerspup</p>
+         <p><input type="radio" name="blogBlogger" value="Carlsv" id="adios"/>Carlsv</p>
+       </div>
+       
+       <div class="col-md-4" style="text-align:left">
+         <p><b>Mejor diseño de blog</b></p>
+         <p><input type="radio" name="blogDiseno" value="Sn2ckerspup" id="hello"/>Club Penguin Rewritten Cheats (Sn2ckerspup)</p>
+         <p><input type="radio" name="blogDiseno" value="The Penguins World" id="adios"/>The Penguins World (Bestimum)</p>
+       </div>
+     </div>
+     
+     <div class="row" style="padding-left:5%; padding-right:5%;">
+       
+       <div class="col-md-6" style="text-align:left">
+         <p><b>Mejor ex-blog</b></p>
+         <p><input type="radio" name="blogExblog" value="ThelCarlos Blog" id="hello"/>ThelCarlos Blog (ThelCarlos)</p>
+         <p><input type="radio" name="blogExblog" value="CPGuia" id="adios"/>CPGuía (Bestimum)</p>
+       </div>
+       
+       <div class="col-md-6" style="text-align:left">
+         <p><b>Mejor ex-blogger</b></p>
+         <p><input type="radio" name="blogExblogger" value="Bestimum" id="hello"/>Bestimum</p>
+         <p><input type="radio" name="blogExblogger" value="ThelCarlos" id="adios"/>ThelCarlos</p>
+       </div>
+       
+     </div>
+     
+     
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+     
+     <!-- YOUTUBE Y TWITCH-->
+     
+     <p style="text-align:center"><b>YOUTUBE Y TWITCH</b></p>
+     <div class="row" style="padding-left:5%; padding-right:5%;">
+       
+       <div class="col-md-4" style="text-align:left">
+         <p><b>Mejor canal</b></p>
+         <p><input type="radio" name="mediaCanal" value="MrQuinua/QuinAndres" id="hello"/>QuinAndres</p>
+         <p><input type="radio" name="mediaCanal" value="Sn2ckerspup" id="adios"/>Sn2ckerspup</p>
+         <p><input type="radio" name="mediaCanal" value="WertyDeluxe" id="adios"/>WertyDeluxe</p>
+         <p><input type="radio" name="mediaCanal" value="Rockervox" id="adios"/>Rockervox</p>
+       </div>
+       
+       <div class="col-md-4" style="text-align:left">
+         <p><b>Mejor youtuber</b></p>
+         <p><input type="radio" name="mediaYoutuber" value="MrQuinua/QuinAndres" id="hello"/>QuinAndres</p>
+         <p><input type="radio" name="mediaYoutuber" value="Sn2ckerspup" id="adios"/>Sn2ckerspup</p>
+         <p><input type="radio" name="mediaYoutuber" value="JMPENGUIN" id="adios"/>JMPENGUIN</p>
+         <p><input type="radio" name="mediaYoutuber" value="Rockervox" id="adios"/>Rockervox</p>
+       </div>
+       
+       <div class="col-md-4" style="text-align:left">
+         <p><b>Mejor contenido del canal</b></p>
+         <p><input type="radio" name="mediaContenido" value="MrQuinua/QuinAndres" id="hello"/>QuinAndres</p>
+         <p><input type="radio" name="mediaContenido" value="Sn2ckerspup" id="adios"/>Sn2ckerspup</p>
+         <p><input type="radio" name="mediaContenido" value="ThelCarlos" id="adios"/>ThelCarlos</p>
+         <p><input type="radio" name="mediaContenido" value="Rockervox" id="adios"/>Rockervox</p>
+       </div>
+       
+     </div>
+     
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+     
+     <!-- TWITTER -->
+    <p style="text-align:center"><b>TWITTER</b></p>
+     <div class="row" style="padding-left:5%; padding-right:5%;">
+       <div class="col-md-6" style="text-align:left">
+         <p><b>Mejor twittero</b></p>
+         <p><input type="radio" name="twitterMejor" value="StampPin" id="hello"/>StampPin</p>
+         <p><input type="radio" name="twitterMejor" value="Zwanzig" id="adios"/>Zwanzig</p>
+       </div>
+       
+       <div class="col-md-6" style="text-align:left">
+         <p><b>Mejor perfil</b></p>
+         <p><input type="radio" name="twitterPerfil" value="Zwanzig" id="hello"/>Zwanzig</p>
+         <p><input type="radio" name="twitterPerfil" value="Sn2ckerspup" id="adios"/>Sn2ckerspup</p>
+       </div>
+       </div>
+     </div>
+     
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+     
+     <!-- COMUNIDAD-->
+     
+     <p style="text-align:center"><b>COMUNIDAD</b></p>
+     <div class="row" style="padding-left:5%; padding-right:5%;">
+       
+       <div class="col-md-4" style="text-align:left">
+         <p><b>Mejor amigo</b></p>
+         <p><input type="radio" name="comunidadAmigo" value="Zwanzig" id="hello"/>Zwanzig</p>
+         <p><input type="radio" name="comunidadAmigo" value="The Super Juan" id="adios"/>The Super Juan</p>
+         <p><input type="radio" name="comunidadAmigo" value="EL_QUEBYN" id="adios"/>EL_QUEBYN</p>
+         <p><input type="radio" name="comunidadAmigo" value="Emigaavr" id="adios"/>Emigaavr</p>
+       </div>
+       
+       <div class="col-md-4" style="text-align:left">
+         <p><b>Pingüino más amable</b></p>
+         <p><input type="radio" name="comunidadAmable" value="ZeyroxX" id="hello"/>ZeyroxX</p>
+         <p><input type="radio" name="comunidadamable" value="EL_QUEBYN" id="adios"/>EL_QUEBYN</p>
+         <p><input type="radio" name="comunidadamable" value="RedKing" id="adios"/>RedKing</p>
+       </div>
+       
+       <div class="col-md-4" style="text-align:left">
+         <p><b>Mejor pingüino</b></p>
+         <p><input type="radio" name="comunidadPinguino" value="Ipinguino" id="hello"/>Ipinguino</p>
+         <p><input type="radio" name="comunidadPinguino" value="Sn2ckerspup" id="adios"/>Sn2ckerspup</p>
+         <p><input type="radio" name="comunidadPinguino" value="EL_QUEBYN" id="adios"/>EL_QUEBYN</p>
+       </div>
+     </div>
+     
+     <div class="row" style="padding-left:5%; padding-right:5%;">
+       
+       <div class="col-md-4" style="text-align:left">
+         <p><b>Mejor pingüino retirado</b></p>
+         <p><input type="radio" name="comunidadPinguinoRetirado" value="Dino" id="hello"/>Dino</p>
+         <p><input type="radio" name="comunidadPinguinoRetirado" value="Bestimum" id="adios"/>Bestimum</p>
+       </div>
+       
+       <div class="col-md-4" style="text-align:left">
+         <p><b>Pingüino más servicial</b></p>
+         <p><input type="radio" name="comunidadServicial" value="The Super Juan" id="hello"/>The Super Juan</p>
+         <p><input type="radio" name="comunidadServicial" value="RedKing" id="adios"/>RedKing</p>
+         <p><input type="radio" name="comunidadServicial" value="Emigaavr" id="adios"/>Emigaavr</p>
+       </div>
+       
+       <div class="col-md-4" style="text-align:left">
+         <p><b>Mejor proyecto</b></p>
+         <p><input type="radio" name="comunidadProyecto" value="Pinwi.tk" id="hello"/>Pinwi.tk (Bestimum)</p>
+         <p><input type="radio" name="comunidadProyecto" value="TCPPSTimes" id="adios"/>TCPPSTimes (Zwanzig)</p>
+       </div>
+       
+     </div>
+     
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+     
+     <!-- CUALIDADES DEL STAFF-->
+     
+     <p style="text-align:center"><b>CUALIDADES DEL STAFF</b></p>
+     
+     <div class="row" style="padding-left:5%; padding-right:5%;">
+       
+       <div class="col-md-6" style="text-align:left">
+         <p><b>Mejor gestor de comunidad</b></p>
+         <p><input type="radio" name="staffGestor" value="Zwanzig" id="hello"/>Zwanzig</p>
+         <p><input type="radio" name="staffGestor" value="ThelCarlos" id="adios"/>ThelCarlos</p>
+       </div>
+       
+       <div class="col-md-6" style="text-align:left">
+         <p><b>Mejor ex-staff</b></p>
+         <p><input type="radio" name="staffEx" value="Dino" id="hello"/>Dino</p>
+         <p><input type="radio" name="staffEx" value="Bestimum" id="adios"/>Bestimum</p>
+       </div>
+       
+     </div>
+     
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+     
+     <!-- CPPS -->
+     
+     <p style="text-align:center"><b>CPPS</b></p>
+     <div class="row" style="padding-left:5%; padding-right:5%;">
+       
+       <div class="col-md-12" style="text-align:left">
+         <p><b>Mejor staff</b></p>
+         <p><input type="radio" name="CPPSStaff" value="Fluffy Penguin" id="hello"/>Fluffy Penguin</p>
+         <p><input type="radio" name="CPPSStaff" value="Club Penguin World" id="adios"/>Club Penguin World</p>
+       </div>
+       
+     </div>
+     
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+    
+    <div style="text-align: center">
+    
+    <p style="font-size: 15px">Al pulsar el botón de "enviar", estás aceptando la <a href="../privacidad">política de privacidad</a> de Pinwi.tk y los TPA en general.</p>
+    <input type="submit" value="Enviar" />
+    </div>
+    </form>
+    <br>
+    <p style="font-size: 20px; text-align: center">¿Algún problema? Puedes enviar un correo electrónico a <a href="mailto:tpawards@bestimum.tk"> tpawards@bestimum.tk</a>.</p>
+  </div>
+
+  </body>
+
+</html>

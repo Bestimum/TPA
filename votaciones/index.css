@@ -1,0 +1,94 @@
+body {
+  background-color: rgb(241, 255, 213);
+}
+
+p {
+  font-size: 27px;
+  font-family: 'Itim', cursive;
+  padding-left: 10px;
+}
+
+h1 {
+  font-family: 'Patrick Hand', cursive;
+  text-align: center;
+  font-size: 60px;
+}
+
+input {
+  border: 1px dotted #999;
+  font-size: 15px;
+  font-family: 'Itim', cursive;
+}
+
+form p {
+  font-size: 27px;
+}
+
+textarea {
+  border: 1px dotted #999;
+  font-size: 15px;
+  font-family: 'Itim', cursive;
+}
+
+ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+li.menu {
+  float: left;
+  border-radius: 10px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 40px;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 10px;
+  font-family: 'Itim', cursive;
+}
+
+li a:hover {
+  display: block;
+  transition: 1s;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+  border-radius: 10px;
+}
+
+.votaciones {
+  text-align: left;
+
+}
+
+.titol {
+  background-color: rgb(185, 242, 255);
+  text-align: center;
+  border-radius: 10px;
+  font-family: 'Fredoka One', cursive;
+}
+
+
+
+.active {
+  background-color: rgb(0, 152, 38);
+}
+
+.active:hover {
+  background-color: rgb(0, 96, 30);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Neuton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kalam:300,400&display=swap');

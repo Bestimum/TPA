@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../index.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap" rel="stylesheet">
+
+  <title>Inscribirme</title>
+</head>
+
+<body>
+  <ul class="menu">
+    <li class="menu">
+      <a href="../">Inicio</a>
+    </li>
+    <li class="menu">
+      <a href="../privacidad">Privacidad</a>
+    </li>
+    <li class="menu">
+      <a href="../categorias">Categorías</a>
+    </li>
+    <li class="menu">
+      <a class="active" href="./">Inscribirme</a>
+    </li>
+  </ul>
+
+  <div class="titol">
+    <h1>Inscribirme</h1>
+  </div>
+  <div style="text-align:center">
+    <p>¿Listo para postularse?</p>
+    <p>Debes rellenar el siguiente formulario indicando <b>tu nombre, 
+    tu correo electrónico, los premios a los que quieres postularte y 
+    algún método de contacto </b>para que podamos contactarte. </p>
+    
+    <form method="post" action="process.php">
+    <p>Usuario: <input type="text" name="user_name" placeholder="Bestimum" /><br /></p>
+    <p>Correo electrónico: <input type="email" name="user_email" placeholder="official@bestimum.tk" /><br /></p>
+    <p>Cargos: <input type="text" name="user_postulation" placeholder="Mejor ex-twittero" /><br /></p>
+    <p>Contacto: <textarea name="user_text" placeholder="Por mi correo electrónico"></textarea><br /></p>
+    <input type="submit" value="Submit" />
+    </form>
+
+  </div>
+
+  </body>
+
+</html>
